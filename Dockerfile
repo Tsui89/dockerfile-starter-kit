@@ -7,8 +7,7 @@ ARG env_para
 LABEL branch=$branch \
         commit=$commit \
         buildtime=$buildtime \
-        owner=$owner \
-        env_para=$env_para
+        owner=$owner 
 # put your commands here
 
 ENTRYPOINT []
